@@ -1,20 +1,5 @@
 # AddressConverter
 
-To start your Phoenix server:
+ExVCR is a great library that allows you to test HTTP in Elixir based on a real production data while it requires only one request to be made and recorder.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `npm install` inside the `assets` directory
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+As describe in this article [https://curiosum.dev/blog/test-http-requests-in-elixir-with-exvcr](https://curiosum.dev/blog/test-http-requests-in-elixir-with-exvcr) you can 
