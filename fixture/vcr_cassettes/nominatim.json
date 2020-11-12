@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://nominatim.openstreetmap.org/search?format=json&q=Poznan, Poland"
+    },
+    "response": {
+      "binary": false,
+      "body": "[{\"place_id\":235552447,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":165941,\"boundingbox\":[\"52.2919238\",\"52.5093282\",\"16.7315878\",\"17.0717065\"],\"lat\":\"52.4082663\",\"lon\":\"16.9335199\",\"display_name\":\"Poznań, województwo wielkopolskie, Polska\",\"class\":\"boundary\",\"type\":\"administrative\",\"importance\":0.6645405979969531,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png\"},{\"place_id\":235845652,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":2989158,\"boundingbox\":[\"52.2919238\",\"52.5093282\",\"16.7315878\",\"17.0717065\"],\"lat\":\"52.4082663\",\"lon\":\"16.9335199\",\"display_name\":\"Poznań, województwo wielkopolskie, Polska\",\"class\":\"boundary\",\"type\":\"administrative\",\"importance\":0.6645405979969531,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png\"},{\"place_id\":235601175,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"relation\",\"osm_id\":2456294,\"boundingbox\":[\"52.2919238\",\"52.5093282\",\"16.7315878\",\"17.0717065\"],\"lat\":\"52.4082663\",\"lon\":\"16.9335199\",\"display_name\":\"Poznań, województwo wielkopolskie, Polska\",\"class\":\"boundary\",\"type\":\"administrative\",\"importance\":0.6645405979969531,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png\"},{\"place_id\":3184598,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":362654889,\"boundingbox\":[\"51.6568198\",\"51.6968198\",\"22.2845472\",\"22.3245472\"],\"lat\":\"51.6768198\",\"lon\":\"22.3045472\",\"display_name\":\"Poznań, gmina Serokomla, powiat łukowski, województwo lubelskie, 21-413, Polska\",\"class\":\"place\",\"type\":\"village\",\"importance\":0.2759490106750474,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png\"},{\"place_id\":39972318,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":3009742000,\"boundingbox\":[\"49.9516667\",\"49.9916667\",\"19.0697222\",\"19.1097222\"],\"lat\":\"49.9716667\",\"lon\":\"19.0897222\",\"display_name\":\"Poznań, Góra, gmina Miedźna, powiat pszczyński, województwo śląskie, 43-227, Polska\",\"class\":\"place\",\"type\":\"hamlet\",\"importance\":0.25,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/poi_place_village.p.20.png\"},{\"place_id\":294158881,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":7711398667,\"boundingbox\":[\"52.4147814\",\"52.4148814\",\"16.8276294\",\"16.8277294\"],\"lat\":\"52.4148314\",\"lon\":\"16.8276794\",\"display_name\":\"POZnan*, Port Lotniczy Ławica, Poznań, Ławica, Poznań, województwo wielkopolskie, 60-190, Polska\",\"class\":\"tourism\",\"type\":\"artwork\",\"importance\":0.101,\"icon\":\"https://nominatim.openstreetmap.org/images/mapicons/tourist_art_gallery2.p.20.png\"},{\"place_id\":222506772,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":690480182,\"boundingbox\":[\"52.413721\",\"52.4137419\",\"16.9139647\",\"16.9142287\"],\"lat\":\"52.413721\",\"lon\":\"16.9142287\",\"display_name\":\"Poznańska, Jeżyckie Osiedle, Poznań, województwo wielkopolskie, 60-853, Polska\",\"class\":\"highway\",\"type\":\"tertiary\",\"importance\":0.09999999999999998},{\"place_id\":53688314,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"node\",\"osm_id\":4406093037,\"boundingbox\":[\"52.413214\",\"52.413314\",\"16.7970103\",\"16.7971103\"],\"lat\":\"52.413264\",\"lon\":\"16.7970603\",\"display_name\":\"Poznań, Radarowa, Wysogotowo, gmina Tarnowo Podgórne, powiat poznański, województwo wielkopolskie, 60-185, Polska\",\"class\":\"man_made\",\"type\":\"monitoring_station\",\"importance\":0.001},{\"place_id\":180754708,\"licence\":\"Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright\",\"osm_type\":\"way\",\"osm_id\":421133520,\"boundingbox\":[\"50.6016333\",\"50.6144572\",\"22.4894909\",\"22.5141571\"],\"lat\":\"50.6078512\",\"lon\":\"22.5019774\",\"display_name\":\"Poznań, Kolejka leśna, Szewce, gmina Janów Lubelski, powiat janowski, województwo lubelskie, 23-403, Polska\",\"class\":\"natural\",\"type\":\"ridge\",\"importance\":0.001}]",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sun, 01 Nov 2020 19:42:13 GMT",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=20",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "OPTIONS,GET"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
